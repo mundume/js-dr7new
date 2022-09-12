@@ -6,7 +6,7 @@ const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 //primitive
-const name = 'john'; 
+const name = 'john';
 //appDiv.textContent = typeof name
 
 const age = 45;
@@ -23,5 +23,6 @@ const syn = Symbol();
 
 //reference types objects
 
-const hobbies = ['code', 'sleep'];
+const hobbies = 'code sleep food love';
 //appDiv.textContent = typeof hobbies;
+console.log(hobbies.replace('code', 'food'));
