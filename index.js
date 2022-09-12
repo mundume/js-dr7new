@@ -6,7 +6,7 @@ const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 //primitive
-const name = 'john';
+const name = 'john'; 
 //appDiv.textContent = typeof name
 
 const age = 45;
