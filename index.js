@@ -26,3 +26,17 @@ const syn = Symbol();
 const hobbies = 'code sleep food love';
 //appDiv.textContent = typeof hobbies;
 console.log(hobbies.replace('code', 'food'));
+
+
+
+//arrays 
+const array = [1,2,4,5,3,5,7]
+
+array.push(3)//addd on to the end of an array
+array.unshift(120)//add elements at the start of an array
+array.pop()//remove element from the end and start
+
+array.shift()//remove from the start of the array
+
+
+console.log(array)
